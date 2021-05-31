@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <script
+      src="https://kit.fontawesome.com/bf0f3acdd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <main class="container">
+      <h2>Login</h2>
+
+      <form action="/success" method="POST">
+        <div class="input-field">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+          />
+          <div class="underline"></div>
+        </div>
+        <div class="input-field">
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+          <div class="underline"></div>
+        </div>
+        <input type="submit" value="Continue">
+      </form>
+        <form action="/register" method="GET" class="registerr">
+
+         <input type="submit" value="Sign Up">
+
+        </form>
+      <div class="footer">
+        <span>Or Connect With Social Media</span>
+        <div class="social-fields">
+          <div class="social-field-facebook">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+              Sign in With Facebook
+            </a>
+          </div>
+          <div class="social-field-twitter">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+              Sign in With Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
