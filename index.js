@@ -59,7 +59,7 @@ Users.findOne({
   if(user!==undefined){
 
 
-var correct = password == user.password? true:false
+var correct = password == user.pass? true:false
 
       if(correct){
 
